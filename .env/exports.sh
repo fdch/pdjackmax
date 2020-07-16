@@ -6,6 +6,7 @@ export PDEXEC=${ACCADAOO}/Contents/Resources/bin/pd
 export PDPATCH=${ACCADAOO}/Contents/Resources/patch/ezaoo.pd
 export MAXPATCH=none
 export TMPDIR=${MAINDIR}/.tmp
+if [[ ! -d ${TMPDIR} ]]; then mkdir ${TMPDIR}; fi
 export BINDIR=${MAINDIR}/bin
 export SETTINGS=${MAINDIR}/settings
 export PDSTART=${BINDIR}/pd_start.sh
