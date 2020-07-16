@@ -1,0 +1,24 @@
+#!/bin/bash
+
+export GROUPNAME=accadosu
+
+export HOSTNAME=vrr.ffddcchh.com.ar
+export PORT=9098
+
+export AUTOCONNECT=1
+export AUTOSTART=1
+
+export BUFSIZE=60
+export PACKETSIZE=512
+export TIMEFILTER=1
+
+export COMPRESSION=0
+
+export SEND_TO=all
+export RECEIVE_FROM=all
+
+export PDGUI=-gui 
+
+export SAMPLERATE=44100
+export AUDIODEVICE=coreaudio
+export PDCHANS=2
